@@ -4,7 +4,7 @@ agent any
 stages
 {
  stage('scm checkout')
- {steps { git branch: 'master', url: 'https://github.com/Onkar2515/mavenproject3' }} 
+ {steps { git branch: 'master', url: 'https://github.com/Onkar2515/mavenproject3.git' }} 
 
 
  stage('execute unit test framework')
